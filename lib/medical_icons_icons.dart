@@ -2,11 +2,13 @@ library flutter_jap_icons;
 
 import 'package:flutter/widgets.dart';
 
+/// IconData for MedicalIcons
 class MedicalData extends IconData {
   const MedicalData(int code, {String? fontFamily, String? fontPackage})
       : super(code, fontFamily: fontFamily, fontPackage: fontPackage);
 }
 
+/// Class to generate MedicalIcons
 class MedicalIcons {
   MedicalIcons._();
 

@@ -2,11 +2,13 @@ library flutter_jap_icons;
 
 import 'package:flutter/widgets.dart';
 
+/// IconData for MapIcons
 class MapData extends IconData {
   const MapData(int code, {String? fontFamily, String? fontPackage})
       : super(code, fontFamily: fontFamily, fontPackage: fontPackage);
 }
 
+/// Class to generate MapIcons
 class MapIcons {
   MapIcons._();
 

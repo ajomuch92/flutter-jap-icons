@@ -2,11 +2,13 @@ library flutter_jap_icons;
 
 import 'package:flutter/widgets.dart';
 
+/// IconData for GeoglyphsIcons
 class GeoglyphsData extends IconData {
   const GeoglyphsData(int code, {String? fontFamily, String? fontPackage})
       : super(code, fontFamily: fontFamily, fontPackage: fontPackage);
 }
 
+/// Class to generate GeoglyphsIcons
 class GeoglyphsIcons {
   GeoglyphsIcons._();
 
