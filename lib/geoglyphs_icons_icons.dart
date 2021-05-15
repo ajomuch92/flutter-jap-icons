@@ -3,15 +3,15 @@ library flutter_jap_icons;
 import 'package:flutter/widgets.dart';
 
 class GeoglyphsData extends IconData {
-  const GeoglyphsData(int code, {String fontFamily, String fontPackage})
+  const GeoglyphsData(int code, {String? fontFamily, String? fontPackage})
       : super(code, fontFamily: fontFamily, fontPackage: fontPackage);
 }
 
 class GeoglyphsIcons {
   GeoglyphsIcons._();
 
-  static const _kFontFam = 'GeoglyphsIcons';
-  static const String _kFontPkg = 'flutter_jap_icons';
+  static const String? _kFontFam = 'GeoglyphsIcons';
+  static const String? _kFontPkg = 'flutter_jap_icons';
 
   /// Icon for turf-along
   static const IconData turf_along =

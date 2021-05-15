@@ -1,7 +1,7 @@
 # Just Another Package(JAP) of Icons
 
 
-This package includes 341 icons for [maps](https://iconify.design/icon-sets/map/), [medical](https://iconify.design/icon-sets/medical-icon/) and [GeoGlyphs](https://iconify.design/icon-sets/geo/). The naming convention is the same as the CSS names, all dashes replaced with underscores.
+This package includes 341 icons for [maps](https://iconify.design/icon-sets/map/), [medical](https://iconify.design/icon-sets/medical-icon/) and [GeoGlyphs](https://iconify.design/icon-sets/geo/) from [Iconify] (https://iconify.design). The naming convention is the same as the CSS names, all dashes replaced with underscores.
 
 <img src="https://github.com/ajomuch92/flutter-jap-icons/blob/master/assets/demo_screenshot.jpg?raw=true" width="200" height="429"/>
 

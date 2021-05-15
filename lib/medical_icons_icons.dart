@@ -3,15 +3,15 @@ library flutter_jap_icons;
 import 'package:flutter/widgets.dart';
 
 class MedicalData extends IconData {
-  const MedicalData(int code, {String fontFamily, String fontPackage})
+  const MedicalData(int code, {String? fontFamily, String? fontPackage})
       : super(code, fontFamily: fontFamily, fontPackage: fontPackage);
 }
 
 class MedicalIcons {
   MedicalIcons._();
 
-  static const _kFontFam = 'MedicalIcons';
-  static const String _kFontPkg = 'flutter_jap_icons';
+  static const String? _kFontFam = 'MedicalIcons';
+  static const String? _kFontPkg = 'flutter_jap_icons';
 
   /// Icon for oncology
   static const IconData oncology =

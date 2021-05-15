@@ -3,15 +3,15 @@ library flutter_jap_icons;
 import 'package:flutter/widgets.dart';
 
 class MapData extends IconData {
-  const MapData(int code, {String fontFamily, String fontPackage})
+  const MapData(int code, {String? fontFamily, String? fontPackage})
       : super(code, fontFamily: fontFamily, fontPackage: fontPackage);
 }
 
 class MapIcons {
   MapIcons._();
 
-  static const _kFontFam = 'MapIcons';
-  static const String _kFontPkg = 'flutter_jap_icons';
+  static const String? _kFontFam = 'MapIcons';
+  static const String? _kFontPkg = 'flutter_jap_icons';
 
   /// Icon for abseiling
   static const IconData abseiling =
