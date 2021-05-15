@@ -33,3 +33,14 @@ Icon(MedicalIcons.pharmacy, size: 48, color: Colors.redAccent,),
 ...
 ```
 
+## Geoglyphs Icons
+[List](https://iconify.design/icon-sets/geo/)
+<img src="https://github.com/ajomuch92/flutter-jap-icons/blob/master/assets/geoglyphs_screenshot.png"/>
+
+## Map Icons
+[List](https://iconify.design/icon-sets/map/)
+<img src="https://github.com/ajomuch92/flutter-jap-icons/blob/master/assets/map_screenshot.png"/>
+
+## Medical Icons
+[List](https://iconify.design/icon-sets/medical-icon/) 
+<img src="https://github.com/ajomuch92/flutter-jap-icons/blob/master/assets/medical_screenshot.png"/>
