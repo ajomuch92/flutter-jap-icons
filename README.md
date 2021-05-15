@@ -1,14 +1,35 @@
-# flutter_jap_icons
+# Just Another Package(JAP) of Icons
 
-A new Flutter package project.
 
-## Getting Started
+This package includes icons for [maps](https://iconify.design/icon-sets/map/), [medical](https://iconify.design/icon-sets/medical-icon/) and [GeoGlyphs](https://iconify.design/icon-sets/geo/). The naming convention is the same as the CSS names, all dashes replaced with underscores.
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+<img src="https://github.com/ajomuch92/flutter-jap-icons/blob/master/assets/demo_screenshot.jpg" width="200" height="429"/>
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Instalation
+Include `flutter_jap_icons` in your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_jap_icons: version
+```
+
+## Usage
+
+To use this package, just import it into your file and enjoy it.
+
+```dart
+import 'package:flutter_jap_icons/geoglyphs_icons_icons.dart';
+import 'package:flutter_jap_icons/map_icons_icons.dart';
+import 'package:flutter_jap_icons/medical_icons_icons.dart';
+
+...
+
+Icon(GeoglyphsIcons.turf_merge, size: 48,),
+Icon(MapIcons.campground, size: 48, color: Colors.blue,),
+Icon(MedicalIcons.pharmacy, size: 48, color: Colors.redAccent,),
+
+...
+```
+
