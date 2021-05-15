@@ -1,7 +1,7 @@
 name: flutter_jap_icons
 description: Just Another package of icons. This package contains medical, maps and geoglyphs icons. Enjoy it.
 version: 0.0.1
-homepage:
+homepage: https://github.com/ajomuch92/flutter-jap-icons
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
